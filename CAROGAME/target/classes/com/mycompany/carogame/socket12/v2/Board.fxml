@@ -1,0 +1,802 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="1000.0" minWidth="2000.0" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #c9986d;" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.carogame.socket12.v2.BoardController">
+   <children>
+      <GridPane fx:id="gridPane" layoutX="71.0" layoutY="119.0" style="-fx-background-color: #c9986d;">
+         <columnConstraints>
+            <ColumnConstraints />
+            <ColumnConstraints />
+            <ColumnConstraints />
+            <ColumnConstraints />
+            <ColumnConstraints />
+            <ColumnConstraints />
+            <ColumnConstraints />
+            <ColumnConstraints />
+            <ColumnConstraints />
+            <ColumnConstraints />
+            <ColumnConstraints />
+            <ColumnConstraints />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+         </rowConstraints>
+         <children>
+            <Button fx:id="button00" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="0" GridPane.rowIndex="0">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button01" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="1" GridPane.rowIndex="0">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button02" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="2" GridPane.rowIndex="0">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button03" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="3" GridPane.rowIndex="0">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button04" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="4" GridPane.rowIndex="0">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button05" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="5" GridPane.rowIndex="0">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button06" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="6" GridPane.rowIndex="0">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button07" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="7" GridPane.rowIndex="0">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button08" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="8" GridPane.rowIndex="0">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button09" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="9">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button010" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="10">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button011" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="11">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button10" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="0" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button11" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button12" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button13" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="3" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button14" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="4" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button15" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="5" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button16" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="6" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button17" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="7" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button18" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="8" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button19" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="9" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button110" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="10" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button111" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="11" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button20" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="0" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button21" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button22" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="2" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button23" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="3" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button24" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="4" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button25" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="5" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button26" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="6" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button27" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="7" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button28" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="8" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button29" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="9" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button210" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="10" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button211" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="11" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button30" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="0" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button31" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button32" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="2" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button33" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="3" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button34" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="4" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button35" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="5" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button36" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="6" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button37" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="7" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button38" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="8" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button39" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="9" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button310" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="10" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button311" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="11" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button40" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="0" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button41" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="1" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button42" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="2" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button43" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="3" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button44" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="4" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button45" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="5" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button46" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="6" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button47" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="7" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button48" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="8" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button49" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="9" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button410" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="10" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button411" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="11" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button50" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="0" GridPane.rowIndex="5">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button51" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="1" GridPane.rowIndex="5">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button52" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="2" GridPane.rowIndex="5">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button53" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="3" GridPane.rowIndex="5">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button54" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="4" GridPane.rowIndex="5">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button55" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="5" GridPane.rowIndex="5">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button56" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="6" GridPane.rowIndex="5">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button57" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="7" GridPane.rowIndex="5">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button58" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="8" GridPane.rowIndex="5">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button59" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="9" GridPane.rowIndex="5">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button510" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="10" GridPane.rowIndex="5">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button511" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="11" GridPane.rowIndex="5">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button60" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.rowIndex="6">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button61" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="1" GridPane.rowIndex="6">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button62" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="2" GridPane.rowIndex="6">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button63" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="3" GridPane.rowIndex="6">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button64" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="4" GridPane.rowIndex="6">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button65" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="5" GridPane.rowIndex="6">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button66" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="6" GridPane.rowIndex="6">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button67" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="7" GridPane.rowIndex="6">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button68" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="8" GridPane.rowIndex="6">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button69" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="9" GridPane.rowIndex="6">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button610" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="10" GridPane.rowIndex="6">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button611" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="11" GridPane.rowIndex="6">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button70" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.rowIndex="7">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button71" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="1" GridPane.rowIndex="7">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button72" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="2" GridPane.rowIndex="7">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button73" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="3" GridPane.rowIndex="7">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button74" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="4" GridPane.rowIndex="7">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button75" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="5" GridPane.rowIndex="7">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button76" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="6" GridPane.rowIndex="7">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button77" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="7" GridPane.rowIndex="7">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button78" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="8" GridPane.rowIndex="7">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button79" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="9" GridPane.rowIndex="7">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button710" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="10" GridPane.rowIndex="7">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button711" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="11" GridPane.rowIndex="7">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button80" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.rowIndex="8">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button81" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="1" GridPane.rowIndex="8">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button82" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="2" GridPane.rowIndex="8">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button83" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="3" GridPane.rowIndex="8">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button84" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="4" GridPane.rowIndex="8">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button85" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="5" GridPane.rowIndex="8">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button86" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="6" GridPane.rowIndex="8">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button87" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="7" GridPane.rowIndex="8">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button88" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="8" GridPane.rowIndex="8">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button89" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="9" GridPane.rowIndex="8">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button810" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="10" GridPane.rowIndex="8">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button811" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="11" GridPane.rowIndex="8">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button90" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.rowIndex="9">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button91" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="1" GridPane.rowIndex="9">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button92" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="2" GridPane.rowIndex="9">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button93" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="3" GridPane.rowIndex="9">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button94" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="4" GridPane.rowIndex="9">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button95" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="5" GridPane.rowIndex="9">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button96" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="6" GridPane.rowIndex="9">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button97" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="7" GridPane.rowIndex="9">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button98" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="8" GridPane.rowIndex="9">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button99" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="9" GridPane.rowIndex="9">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button910" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="10" GridPane.rowIndex="9">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button911" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="11" GridPane.rowIndex="9">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button100" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.rowIndex="10">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button101" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="1" GridPane.rowIndex="10">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button102" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="2" GridPane.rowIndex="10">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button103" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="3" GridPane.rowIndex="10">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button104" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="4" GridPane.rowIndex="10">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button105" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="5" GridPane.rowIndex="10">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button106" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="6" GridPane.rowIndex="10">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button107" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="7" GridPane.rowIndex="10">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button108" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="8" GridPane.rowIndex="10">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button109" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="9" GridPane.rowIndex="10">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button1010" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="10" GridPane.rowIndex="10">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button1011" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="11" GridPane.rowIndex="10">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button1100" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.rowIndex="11">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button1101" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="1" GridPane.rowIndex="11">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button112" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="2" GridPane.rowIndex="11">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button113" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="3" GridPane.rowIndex="11">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button114" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="4" GridPane.rowIndex="11">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button115" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="5" GridPane.rowIndex="11">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button116" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="6" GridPane.rowIndex="11">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button117" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="7" GridPane.rowIndex="11">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button118" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="8" GridPane.rowIndex="11">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button119" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="9" GridPane.rowIndex="11">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button1110" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="10" GridPane.rowIndex="11">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="button1111" minHeight="50.0" minWidth="50.0" onAction="#handleButtonAction" text="" GridPane.columnIndex="11" GridPane.rowIndex="11">
+               <font>
+                  <Font name="Times New Roman" size="13.0" />
+               </font>
+            </Button>
+         </children>
+      </GridPane>
+      <Text fx:id="txtUsername" layoutX="816.0" layoutY="118.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" textAlignment="CENTER" wrappingWidth="631.988525390625">
+         <font>
+            <Font name="Arial Black" size="40.0" />
+         </font></Text>
+      <Button fx:id="btnLogOut" layoutX="1140.0" layoutY="643.0" mnemonicParsing="false" onAction="#logOut" prefHeight="67.0" prefWidth="262.0" style="-fx-background-color: #c97b6d;" text="Logout">
+         <font>
+            <Font name="Arial Black" size="28.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnPlayAsGuest" layoutX="822.0" layoutY="642.0" mnemonicParsing="false" onAction="#switchToPlayAsGuest" prefHeight="67.0" prefWidth="262.0" style="-fx-background-color: #f0eada;" text="Play with bot">
+         <font>
+            <Font name="Arial Black" size="28.0" />
+         </font>
+      </Button>
+      <Line endX="125.5" layoutX="751.0" layoutY="189.0" startX="609.5" stroke="#f5f0f0" />
+      <Line endX="184.5" layoutX="1078.0" layoutY="339.0" startX="-139.5" />
+      <Line endX="-19.5" endY="266.0" layoutX="1065.0" layoutY="317.0" startX="-19.5" startY="-39.0" />
+      <Line endX="-100.0" endY="229.0" layoutX="1261.0" layoutY="320.0" startX="-100.0" startY="-80.0" />
+      <Line endX="203.5" layoutX="1092.0" layoutY="440.0" startX="-186.5" />
+      <Label layoutX="1092.0" layoutY="284.0" prefHeight="25.0" prefWidth="27.0" text="X" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="1092.0" layoutY="378.0" prefHeight="25.0" prefWidth="27.0" text="O" textFill="#c31414">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="982.0" layoutY="380.0" prefHeight="25.0" prefWidth="27.0" text="X">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Pos?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.carogame.socket12.v2.MainPageController">
+    <center>
+        <VBox alignment="CENTER" spacing="20.0">
+            <Button text="Bắt đầu" fx:id="startButton" onAction="#handleStartButton"/>
+        </VBox>
+    </center>
+</BorderPane>

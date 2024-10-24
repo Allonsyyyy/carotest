@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/22" fx:controller="com.mycompany.carogame.Login.RegisterController">
+    <children>
+        <Label layoutX="50.0" layoutY="50.0" style="-fx-font-size: 24px; -fx-font-weight: bold;" text="Terms of Use" />
+        <Label layoutX="50.0" layoutY="100.0" prefWidth="400.0" style="-fx-font-size: 14px; -fx-padding: 10 0 20 0;" text="Here are the terms of use... This is where you would detail the terms and conditions for using the application. Be sure to be thorough and clear in explaining the terms, so users understand their rights and responsibilities while using the app." wrapText="true" />
+        <Button fx:id="btnBack" onAction="#switchFromPolicy" layoutX="50.0" layoutY="250.0" style="-fx-background-color: #7da3c9; -fx-text-fill: white; -fx-padding: 10 20; -fx-background-radius: 5;" text="Back" />
+    </children>
+</AnchorPane>

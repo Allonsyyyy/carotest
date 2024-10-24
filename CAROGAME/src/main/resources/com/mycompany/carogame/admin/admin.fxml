@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.carogame.admin.AdminController">
+   <top>
+      <HBox prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Pane prefHeight="100.0" prefWidth="608.0" style="-fx-border-width: 0 0 2px 0; -fx-border-color: black; -fx-background-color: rgb(109,164,207);">
+               <children>
+                  <Label alignment="CENTER" layoutX="37.0" layoutY="26.0" prefHeight="64.0" prefWidth="161.0" style="-fx-padding: 10px 5px 5px 15px;" text="Admin" textAlignment="CENTER">
+                     <font>
+                        <Font name="Bradley Hand Bold" size="34.0" />
+                     </font>
+                  </Label>
+                  <Hyperlink fx:id="logoutLink" layoutX="492.0" layoutY="44.0" onAction="#handleLogout" style="-fx-text-fill: #021526; -fx-underline: true;" text=" Logout" textAlignment="CENTER">
+                     <font>
+                        <Font name="Raanana" size="13.0" />
+                     </font>
+                  </Hyperlink>
+               </children>
+            </Pane>
+         </children>
+      </HBox>
+   </top>
+   <left>
+      <HBox prefHeight="300.0" prefWidth="180.0" BorderPane.alignment="CENTER">
+         <children>
+            <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-border-width: 0 2px 0 0; -fx-border-color: black; -fx-background-color: rgb(125,186,232);">
+               <children>
+                  <BorderPane layoutX="27.0" layoutY="50.0" prefHeight="200.0" prefWidth="113.0">
+                     <left>
+                        <VBox prefHeight="200.0" prefWidth="131.0" BorderPane.alignment="CENTER">
+                           <children>
+                              <Hyperlink fx:id="usersLink" onAction="#handleUser" prefHeight="32.0" prefWidth="138.0" style="-fx-text-fill: white;" text="Users">
+                                 <font>
+                                    <Font name="Arial Bold" size="15.0" />
+                                 </font>
+                              </Hyperlink>
+                              <Hyperlink fx:id="matchesLink" onAction="#handleMatch" prefHeight="32.0" prefWidth="133.0" style="-fx-text-fill: white;" text="Matches">
+                                 <font>
+                                    <Font name="Arial Bold" size="15.0" />
+                                 </font>
+                              </Hyperlink>
+                              <Hyperlink fx:id="matchHistoryLink" onAction="#handleMatchHistory" prefHeight="32.0" prefWidth="132.0" style="-fx-text-fill: white;" text="Matches History">
+                                 <font>
+                                    <Font name="Arial Bold" size="15.0" />
+                                 </font>
+                              </Hyperlink>
+                           </children>
+                        </VBox>
+                     </left>
+                  </BorderPane>
+                  <Label layoutX="20.0" layoutY="15.0" style="-fx-text-fill: White;" text="Dashboards" textFill="#000614">
+                     <font>
+                        <Font name="Arial Bold" size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+         </children>
+      </HBox>
+   </left>
+   <center>
+      <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: rgb(194,228,255);" BorderPane.alignment="CENTER">
+         <children>
+            <Pane layoutX="10.0" layoutY="50.0" prefHeight="65.0" prefWidth="120.0" style="-fx-border-color: rgb(35,196,49); -fx-border-width: 1 1 4 1; -fx-border-style: none none solid none; -fx-border-radius: 4px; -fx-background-color: #FEFAE0; -fx-background-radius: 4px;">
+               <children>
+                  <Label layoutX="3.0" layoutY="1.0" prefHeight="33.0" prefWidth="117.0" style="-fx-padding: 4px;" text="New Users">
+                     <font>
+                        <Font name="Arial" size="13.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="newUsersLabel" layoutX="3.0" layoutY="28.0" prefHeight="33.0" prefWidth="117.0" style="-fx-padding: 4px;">
+                     <font>
+                        <Font name="Arial" size="13.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane layoutX="150.0" layoutY="50.0" prefHeight="65.0" prefWidth="120.0" style="-fx-border-color: rgb(222,53,53); -fx-border-width: 1 1 4 1; -fx-border-style: none none solid none; -fx-border-radius: 4px; -fx-background-color: #FEFAE0; -fx-background-radius: 4px;">
+               <children>
+                  <Label layoutX="3.0" layoutY="1.0" prefHeight="33.0" prefWidth="98.0" style="-fx-padding: 4px;" text="Total Users">
+                     <font>
+                        <Font name="Arial" size="13.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="totalUsersLabel" layoutX="3.0" layoutY="28.0" prefHeight="33.0" prefWidth="117.0" style="-fx-padding: 4px;">
+                     <font>
+                        <Font name="Arial" size="13.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane layoutX="290.0" layoutY="50.0" prefHeight="65.0" prefWidth="120.0" style="-fx-border-color: #f7b924; -fx-border-width: 1 1 4 1; -fx-border-style: none none solid none; -fx-border-radius: 4px; -fx-background-color: #FEFAE0; -fx-background-radius: 4px;">
+               <children>
+                  <Label layoutX="3.0" layoutY="1.0" prefHeight="33.0" prefWidth="98.0" style="-fx-padding: 4px;" text="Total Matches">
+                     <font>
+                        <Font name="Arial" size="13.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="totalMatchesLabel" layoutX="3.0" layoutY="28.0" prefHeight="33.0" prefWidth="117.0" style="-fx-padding: 4px;">
+                     <font>
+                        <Font name="Arial" size="13.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Label layoutX="14.0" layoutY="14.0" text="Dashboards">
+               <font>
+                  <Font name="Arial Bold" size="19.0" />
+               </font>
+            </Label>
+            <BarChart layoutX="11.0" layoutY="136.0" prefHeight="150.0" prefWidth="397.0">
+              <xAxis>
+                <CategoryAxis side="BOTTOM" />
+              </xAxis>
+              <yAxis>
+                <NumberAxis side="LEFT" />
+              </yAxis>
+            </BarChart>
+         </children>
+      </Pane>
+   </center>
+</BorderPane>

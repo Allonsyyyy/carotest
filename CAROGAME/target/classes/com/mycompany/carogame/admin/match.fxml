@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<SplitPane dividerPositions="0.18592964824120603" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" orientation="VERTICAL" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/13" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.carogame.admin.MatchController">
+  <items>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="49.0" prefWidth="598.0">
+      <children>
+        <Hyperlink fx:id="dashboardLink" layoutX="86.0" layoutY="24.0" prefWidth="131.0" style="-fx-text-fill: black;" text="Dashboards / " onAction="#handleDashboard">
+          <font>
+            <Font name="Arial Bold" size="15.0" />
+          </font>
+        </Hyperlink>
+        <Hyperlink fx:id="matchLink" layoutX="190.0" layoutY="24.0" style="-fx-text-fill: black;" text="Match" onAction="#handleMatch">
+          <font>
+            <Font name="Arial Bold" size="15.0" />
+          </font>
+        </Hyperlink>
+        <Hyperlink fx:id="backLink" layoutX="22.0" layoutY="20.0" style="-fx-text-fill: black;" text="&lt;" onAction="#handleBack">
+          <font>
+            <Font name="Arial Bold" size="20.0" />
+          </font>
+        </Hyperlink>
+      </children>
+    </AnchorPane>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+      <children>
+        <TableView fx:id="tableView" prefHeight="321.0" prefWidth="598.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+          <columns>
+            <TableColumn fx:id="matchIdColumn" prefWidth="75.0" text="Match_id" />
+            <TableColumn fx:id="player1IdColumn" prefWidth="75.0" text="player1_id" />
+            <TableColumn fx:id="player2IdColumn" prefWidth="75.0" text="player2_id" />
+            <TableColumn fx:id="startTimeColumn" prefWidth="73.0" text="start_time" />
+            <TableColumn fx:id="endTimeColumn" prefWidth="76.0" text="end_time" />
+            <TableColumn fx:id="winnerIdColumn" prefWidth="75.0" text="winner_id" />
+            <TableColumn fx:id="editColumn" prefWidth="75.0" text="edit" />
+            <TableColumn fx:id="deleteColumn" prefWidth="75.0" text="delete" />
+          </columns>
+        </TableView>
+      </children>
+    </AnchorPane>
+  </items>
+</SplitPane>

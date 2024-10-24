@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.DialogPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<DialogPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/22" fx:controller="com.mycompany.carogame.admin.EditUserController">
+    <content>
+        <GridPane hgap="10" vgap="10" style="-fx-padding: 10;">
+            <columnConstraints>
+                <ColumnConstraints />
+                <ColumnConstraints />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+            </rowConstraints>
+
+            <Label text="User ID:" GridPane.rowIndex="0" />
+            <TextField fx:id="userIdField" editable="false" GridPane.rowIndex="0" GridPane.columnIndex="1" />
+
+            <Label text="Username:" GridPane.rowIndex="1" />
+            <TextField fx:id="usernameField" GridPane.rowIndex="1" GridPane.columnIndex="1" />
+
+            <Label text="Password:" GridPane.rowIndex="2" />
+            <TextField fx:id="passwordField" GridPane.rowIndex="2" GridPane.columnIndex="1" />
+
+            <Label text="Email:" GridPane.rowIndex="3" />
+            <TextField fx:id="emailField" GridPane.rowIndex="3" GridPane.columnIndex="1" />
+
+            <Label text="Created At:" GridPane.rowIndex="4" />
+            <TextField fx:id="createdAtField" editable="false" GridPane.rowIndex="4" GridPane.columnIndex="1" />
+        </GridPane>
+    </content>
+</DialogPane>
